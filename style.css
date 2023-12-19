@@ -64,18 +64,20 @@ section {
     margin-bottom: 20px;
 }
 
-.skills-card i {
-    font-size: 2em;
-    margin-bottom: 10px;
-}
-
+/* Custom Styles */
 .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     list-style-type: none;
     padding: 0;
 }
 
 .skills-list li {
-    margin-bottom: 5px;
+    margin: 1vw;
+    text-align: left;
+    flex: 1;
+    /* Equal spacing between skills */
 }
 
 /* Portfolio Cards */
