@@ -84,6 +84,19 @@ section {
 .portfolio-card {
     margin-bottom: 30px;
 }
+/* Portfolio Section */
+.portfolio-box {
+    /* Add the following CSS to set a fixed height */
+    height: 300px;
+    /* Adjust the height as needed */
+
+    /* Add any other styles you have for the portfolio box */
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    /* Ensure content doesn't overflow if it exceeds the fixed height */
+}
 
 .portfolio-card img {
     max-width: 100%;
