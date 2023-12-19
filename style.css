@@ -1,0 +1,96 @@
+/* Custom Color Palette */
+:root {
+    --primary-color: #0069D9;
+    /* Blue */
+    --secondary-color: #0069D9;
+
+    --accent-color: #e74c3c;
+    /* Red */
+    --text-color: #333;
+    /* Dark Gray */
+    --bg-color: #f9f9f9;
+    /* Light Gray */
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+nav.navbar {
+    background-color: var(--primary-color);
+}
+
+.nav-item .nav-link {
+    color: var(--primary-color) !important;
+    /* Dark color for list items */
+}
+
+.nav-item .nav-link:hover {
+    color: var(--accent-color) !important;
+    /* Slightly darker color for hover effect */
+}
+
+
+h2,
+h4 {
+    color: var(--primary-color);
+}
+
+a,
+a:hover,
+a:active {
+    color: var(--secondary-color);
+}
+
+.bg-light {
+    background-color: var(--bg-color);
+}
+
+.bg-dark,
+footer {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+/* Expand Sections */
+section {
+    min-height: 60vh;
+    /* Adjust the minimum height as needed */
+}
+
+/* Skills Card */
+.skills-card {
+    margin-bottom: 20px;
+}
+
+.skills-card i {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-list li {
+    margin-bottom: 5px;
+}
+
+/* Portfolio Cards */
+.portfolio-card {
+    margin-bottom: 30px;
+}
+
+.portfolio-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Contact Form */
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+}

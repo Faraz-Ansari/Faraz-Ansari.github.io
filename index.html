@@ -9,95 +9,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        /* Custom Color Palette */
-        :root {
-            --primary-color: #0069D9;
-            /* Blue */
-            --secondary-color: #0069D9;
 
-            --accent-color: #e74c3c;
-            /* Red */
-            --text-color: #333;
-            /* Dark Gray */
-            --bg-color: #f9f9f9;
-            /* Light Gray */
-        }
+    <!-- Custom CSS-->
+    <link rel="stylesheet" href="style.css">
 
-        body {
-            background-color: var(--bg-color);
-            color: var(--text-color);
-        }
-
-        nav.navbar {
-            background-color: var(--primary-color);
-        }
-
-        h2,
-        h4 {
-            color: var(--primary-color);
-        }
-
-        a,
-        a:hover,
-        a:active {
-            color: var(--secondary-color);
-        }
-
-        .bg-light {
-            background-color: var(--bg-color);
-        }
-
-        .bg-dark,
-        footer {
-            background-color: var(--primary-color);
-            color: #fff;
-        }
-
-        /* Expand Sections */
-        section {
-            min-height: 60vh;
-            /* Adjust the minimum height as needed */
-        }
-
-        /* Skills Card */
-        .skills-card {
-            margin-bottom: 20px;
-        }
-
-        .skills-card i {
-            font-size: 2em;
-            margin-bottom: 10px;
-        }
-
-        .skills-list {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        .skills-list li {
-            margin-bottom: 5px;
-        }
-
-        /* Portfolio Cards */
-        .portfolio-card {
-            margin-bottom: 30px;
-        }
-
-        .portfolio-card img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 5px;
-        }
-
-        /* Contact Form */
-        .contact-form {
-            max-width: 400px;
-            margin: 0 auto;
-        }
-    </style>
 </head>
 
 <!-- ... rest of the HTML code ... -->
@@ -106,28 +21,27 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Your Name</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#about">About Me</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#skills">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#portfolio">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-            </ul>
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav" style="font-size: 1.5em; width: 100%; justify-content: space-between;">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
+
 
     <!-- About Me Section -->
     <section id="about" class="py-5 d-flex align-items-center" style="min-height: 70vh;">
@@ -135,19 +49,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
-                    <h2 style="font-size: 2.5em;">About Me</h2>
-                    <p style="font-size: 1.2em;">Your introduction and brief summary go here. Highlight your strengths
-                        and
-                        experiences.</p>
+                    <h2 style="font-size: 2.5em;">Hi, I am Faraz</h2>
+                    <p style="font-size: 1.2em;">I am a Full Stack Developer. I also work with Java and Python.
+                        I am a competitive programmer with a lot of energy, enthusiasm to excel, an attitude that won't
+                        let you down.</p>
                 </div>
             </div>
         </div>
     </section>
-
-
-
-
-
 
 
     <!-- Skills Section -->
@@ -244,7 +153,7 @@
 
     <!-- Footer -->
     <footer class="bg-dark text-white text-center py-3">
-        <p>&copy; 2023 Your Name. All rights reserved.</p>
+        <p>&copy; 2023 Ahmad Faraz Ansari. All rights reserved.</p>
     </footer>
 
     <!-- Bootstrap JS, Popper.js, and jQuery -->
